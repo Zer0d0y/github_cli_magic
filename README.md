@@ -36,6 +36,11 @@ git commit -m "first commit"
 hub create # 先配置GITHUB_TOKEN
 # git remote add origin git@github.com:Zer0d0y/01.git
 git push -u origin master
+
+## ORGANIZATION repository
+hub create tianyulab/Threat_Hunting_with_ELK
+git remote add origin git@github.com:tianyulab/Threat_Hunting_with_ELK.git
+git push -u origin master
 ```
 
 #### 3.push an existing repository from the command line
