@@ -68,3 +68,18 @@ $ git pull-request
 → (opens a text editor for your pull request message)
 ```
 
+#### 5.Issue
+```shell
+# 列出 issue
+git issue
+git issue -f "%sC%>(8)%I%Creset %U %t% l%n%b%n"
+curl -i -H 'Authorization: token 个人TOKEN' https://api.github.com/repos/用户名/项目/issues
+
+# 创建 issue
+git issue create -m "01" -e
+# -m issue title
+# -e, --edit edit the contents of FILE in a text editor before submitting.
+OR
+git issue create -f issue.txt
+```
+
