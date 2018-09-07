@@ -26,7 +26,7 @@ git remote -v
 git push Zer0d0y
 ```
 
-#### 2.create a new repository on the command line
+#### 2.创建repository
 ```
 mkdir 01 && cd 01
 echo "# 01" >> README.md
@@ -43,9 +43,28 @@ git remote add origin git@github.com:tianyulab/Threat_Hunting_with_ELK.git
 git push -u origin master
 ```
 
-#### 3.push an existing repository from the command line
+#### 3.push an existing repository
 ```
 mkdir 01 && cd 01
 git remote add origin git@github.com:Zer0d0y/01.git
 git push -u origin master
 ```
+
+#### 4.贡献（contributing to a project）,pull
+```shell
+$ git clone github/hub
+$ cd hub
+# 创建新分支
+$ git checkout -b feature
+  ( making changes ... )
+$ git add -A
+$ git commit -m "done with feature"
+$ git fork
+
+# push the changes to your new remote
+$ git push Zer0d0y feature
+# 打开 pull request
+$ git pull-request
+→ (opens a text editor for your pull request message)
+```
+
